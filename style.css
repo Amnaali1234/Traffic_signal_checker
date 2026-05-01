@@ -1,18 +1,18 @@
- *{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins";
 }
 body {
-      background: url("bg-img.jpg");
-    background-size: cover;
-   background-repeat: no-repeat center center;
-   min-height: 100vh;
-   display: flex;
-   justify-content: center;
-   align-items: center;
-} 
+  background: url("bg-img.jpg");
+  background-size: cover;
+  background-repeat: no-repeat center center;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 @keyframes fadeIn {
   from {
@@ -43,7 +43,7 @@ body {
 }
 h1 {
   margin: 0 0 30px 0;
-  color: green;
+  color: black;
   font-size: 2.5rem;
   font-weight: bold;
   margin-bottom: 30px;
@@ -57,8 +57,8 @@ h1 {
   border: 2px solid green;
   border-radius: 8px;
   margin-bottom: 10px;
-  color: green;
-  background-color: rgb(230, 230, 124);
+  color: black;
+  background: linear-gradient(13deg, #8cda85, #df7e7e);
 }
 button {
   margin-top: 10px;
@@ -71,21 +71,19 @@ button {
   font-weight: bold;
   transition: all 0.3s ease;
   background: linear-gradient(45deg, #c91616, #60a341);
-} 
+}
 
 button:hover {
   transform: scale(1.05);
-  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
 }
 
 #message {
   margin-top: 20px;
   font-size: 1.5rem;
-  color: green;
-
+  color: black;
 }
 
-/* Tablet */
 @media (max-width: 768px) {
   .container {
     max-width: 350px;
@@ -101,7 +99,6 @@ button:hover {
   }
 }
 
-/* Mobile */
 @media (max-width: 480px) {
   .container {
     max-width: 90%;
@@ -121,4 +118,3 @@ button:hover {
     padding: 10px;
   }
 }
-
