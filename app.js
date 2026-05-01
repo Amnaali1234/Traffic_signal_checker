@@ -8,6 +8,6 @@ if (color === "red") {
 } else if (color === "green") {
     message.innerHTML = "Move now🟢";
 } else {
-    message.innerHTML = "Invalid color";
+    message.innerHTML = "Invalid color❌";
 }
 }
